@@ -1,0 +1,58 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Package manager locks (use one per project)
+# Uncomment based on your preference
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Vercel
+.vercel
+
+# MongoDB
+mongo-data/
+
+# Deployment files (keep secrets out)
+.gcloud
+*.pem
+*.key
+
+# System files
+.AppleDouble
+.AppleDB
